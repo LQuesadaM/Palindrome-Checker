@@ -8,17 +8,23 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <main>
-        <h1>Is it a Palindrome?</h1>
-        <div>
+    <main class="palindrome">
+        <h1 class="palindrome__title">Is it a Palindrome?</h1>
+        <section class="palindrome__info">
             <label for="text-input">Enter in text to check for a palindrome:</label>
-            <input type="text" name="" id="text-input">
-        </div>
+            <input type="text" id="text-input" class="palindrome__input">
+            <button id="check-btn" class="palindrome__check-btn">Check</button>
+        </section>
 
-        <!-- shows the result of text input -->
-        <div id="result">
+        <section id="result" class="palindrome__result">
+            <!-- shows the result of text input -->
+        </section>
 
-        </div>
+        <section id="palindrome__definition">
+            <span role="img">💡</span>
+            <p class="palindrome__paragraph">A <span>palindrome</span> is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.</p>
+        </section>
+
     </main>
 
 
