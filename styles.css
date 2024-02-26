@@ -35,8 +35,8 @@ body {
     width: min(100vw, 30rem);
     display: flex;
     justify-content: center;
-    align-items: center;
     border-radius: 1.25rem;
+    align-items: center;
 }
 .palindrome__info {
     flex-wrap: wrap;
@@ -50,13 +50,9 @@ body {
 
 .palindrome__definition {
     min-height: 8.25em;
-    font-size: 1.3rem;
-    padding: 20px;
+    font-size: 1.3rem;  
+    padding: 30px;
     background-color: var(--bgDefinition);
-    
+    align-items: normal;
 }
-
-
-
-
 
