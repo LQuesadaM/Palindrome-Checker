@@ -1,7 +1,15 @@
-/* *,
-*::after,
-*::before {
-    box-sizing: border-box;
-} */
+
+:root {
+    --bgColor: #0A0A23;
+    --white: #fff;
+}
+
+
+body {
+    background-color: var(--bgColor);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--white);
+}
+
 
 
