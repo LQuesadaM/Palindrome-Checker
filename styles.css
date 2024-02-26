@@ -31,6 +31,13 @@ body {
     padding-bottom: 1.5rem;
 }
 
+.palindrome--box {
+    width: min(100vw, 30rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.25rem;
+}
 .palindrome__info {
     flex-wrap: wrap;
     min-height: 6.25rem;
@@ -40,19 +47,13 @@ body {
     box-shadow: 0 6px 6px #002ead;
 }
 
-.palindrome--box {
-    width: min(100vw, 30rem);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1.25rem;
-}
 
 .palindrome__definition {
     min-height: 8.25em;
     font-size: 1.3rem;
     padding: 20px;
     background-color: var(--bgDefinition);
+    
 }
 
 
