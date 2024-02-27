@@ -18,6 +18,11 @@ body {
     color: var(--white);
 }
 
+.freecodecamp-logo {
+    height: 2rem;
+    margin-bottom: 2rem;
+}
+
 .palindrome {
     height: 100vh;
     display: flex;
