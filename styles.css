@@ -46,8 +46,9 @@ body {
 }
 .palindrome__info {
     flex-wrap: wrap;
-    min-height: 6.25rem;
+    min-height: 8.25rem;
     margin-bottom: 2.5rem;
+    padding: 1rem;
     background-color: var(--white);
     color: var(--black);
     box-shadow: 0 6px 6px #002ead;
