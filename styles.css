@@ -20,7 +20,7 @@ body {
 
 .freecodecamp-logo {
     height: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 .palindrome {
@@ -33,7 +33,7 @@ body {
 
 .palindrome__title {
     font-size: 2.5rem;
-    padding-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .palindrome--box {
