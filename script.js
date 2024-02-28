@@ -8,8 +8,7 @@ const checkPalindrome = () => {
         .toLowerCase()
         .replace(regex, "")
         .split("")
-    
-
+        .join("")
 }
 
 checkButton.addEventListener("click", checkPalindrome);
