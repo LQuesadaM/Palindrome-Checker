@@ -73,6 +73,10 @@ body {
     cursor: pointer;
 }
 
+.palindrome--result {
+    
+}
+
 .palindrome__definition {
     min-height: 8.25em;
     font-size: 1.3rem;  
