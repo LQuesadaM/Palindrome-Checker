@@ -15,9 +15,9 @@ const checkPalindrome = () => {
     if (textFilter === "") {
         alert("Please input a value")
     } else if (textFilter === textInputLowerCase) {
-        result.textContent = `${textInput.value} is a palindrome.`
+        result.innerHTML = `<span>${textInput.value}</span> is a palindrome.`
     } else {
-        result.textContent = `${textInput.value} is not a palindrome.`
+        result.innerHTML = `<span>${textInput.value}</span> is not a palindrome.`
     }
 }
 

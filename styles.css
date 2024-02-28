@@ -73,8 +73,12 @@ body {
     cursor: pointer;
 }
 
-.palindrome--result {
-    
+.palindrome__result{
+    font-size: 1.35rem;
+}
+
+.palindrome__result > span {
+    font-weight: bold;
 }
 
 .palindrome__definition {
