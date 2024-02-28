@@ -1,2 +1,14 @@
 const textInput = document.querySelector("#text-input");
 const checkButton = document.querySelector("#check-btn");
+
+const checkPalindrome = () => {
+    const regex = /[^a-z0-9]/g;
+    const textFilter = textInput.value
+        .toLowerCase()
+        .replace(regex, "")
+        .split("")
+    
+    
+}
+
+checkButton.addEventListener("click", checkPalindrome);
