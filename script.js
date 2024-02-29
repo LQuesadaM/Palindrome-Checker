@@ -3,8 +3,12 @@ const checkButton = document.querySelector("#check-btn");
 const result = document.querySelector("#result");
 
 const checkPalindrome = () => {
-    const regex = /[^a-z0-9]/g;
-    const textInputLowerCase = textInput.value.toLowerCase()
+    const regex = /[^a-zA-Z0-9]/g;
+
+    const textInputLowerCase = textInput.value
+        .replace(regex, "")
+        .toLowerCase()
+
     const textFilter = textInput.value
         .toLowerCase()
         .replace(regex, "")
