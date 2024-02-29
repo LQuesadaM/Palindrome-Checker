@@ -20,8 +20,10 @@ const checkPalindrome = () => {
         alert("Please input a value")
     } else if (textFilter === textInputLowerCase) {
         result.innerHTML = `<span>${textInput.value}</span> is a palindrome.`
+        textInput.value = ""
     } else {
         result.innerHTML = `<span>${textInput.value}</span> is not a palindrome.`
+        textInput.value = ""
     }
 }
 
